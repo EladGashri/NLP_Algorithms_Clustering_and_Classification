@@ -69,6 +69,7 @@ with client:
     tfidf_clusters_collection = NLP_project_db["tfidf_clusters"]
     word2vec_clusters_collection = NLP_project_db["word2vec_clusters"]
 
+    
     if __name__ == "__main__":
         sentences_collection.insert_many(sentences_list)
         tfidf_clusters_collection.insert_many(tfidf_clusters_list)
