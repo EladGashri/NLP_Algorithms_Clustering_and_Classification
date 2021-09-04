@@ -1,6 +1,6 @@
+from RNN import *
 from flask import Flask, request, jsonify
 from classes import *
-from RNN import *
 from pymongo import MongoClient
 from multiprocessing import Process, Value, Queue, cpu_count
 from time import sleep
