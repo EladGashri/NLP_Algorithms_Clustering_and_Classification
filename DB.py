@@ -1,7 +1,7 @@
+from main import args, document, tfidf_centroids, word2vec_centroids
 from bson.son import SON
 from pymongo import MongoClient
 from collections import Counter
-from main import args, document, tfidf_centroids, word2vec_centroids
 
 
 if __name__ == "__main__":
