@@ -3,6 +3,7 @@ from bson.son import SON
 from pymongo import MongoClient
 from collections import Counter
 
+
 if __name__ == "__main__":
 
     sentences_list=list()
@@ -70,6 +71,7 @@ with client:
 
     
     if __name__ == "__main__":
+        
         sentences_collection.insert_many(sentences_list)
         tfidf_clusters_collection.insert_many(tfidf_clusters_list)
         word2vec_clusters_collection.insert_many(word2vec_clusters_list)
