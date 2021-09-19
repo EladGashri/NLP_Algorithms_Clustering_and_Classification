@@ -10,4 +10,4 @@ The algorithms were deployed as a REST API with multiprocessing with Python and 
 1. Most common labels and closest sentences in the cluster assigned to the text according to the Word2vec & K-means algorithm or the TF-IDF & K-means algorithm.
 2. Predicted diagnosis for the condition described in the text according to the Word2vec & RNN algorithm or the TF-IDF & Random forest algorithm.
 
-Technologies used in the project: Python,  Flask, MongoDB, PyTorch, Gensim, Scikit-learn,.
+Technologies used in the project: Python,  Flask, MongoDB, PyTorch, Gensim, Scikit-learn.
